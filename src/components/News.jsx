@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { loadNews } from '../redux/features/news';
+import { loadNews } from '../features/news';
 import { Link } from 'react-router-dom';
 import moment from 'moment';
 import 'moment/locale/ru';

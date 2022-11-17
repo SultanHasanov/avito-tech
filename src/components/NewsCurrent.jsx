@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { getCommentNews, getNewsCurrent } from '../redux/features/newsCurrent';
+import { getCommentNews, getNewsCurrent } from '../features/newsCurrent';
 import moment from 'moment';
 import Comments from './Comments';
 import { RiDownloadFill } from 'react-icons/ri';
